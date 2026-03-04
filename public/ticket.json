@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login Authentication Error",
+    "description": "User cannot log in even with correct email and password credentials.",
+    "customer": "Rahim Uddin",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment Deducted but Order Not Confirmed",
+    "description": "Customer's payment was deducted from bank account but no order confirmation was received.",
+    "customer": "Nusrat Jahan",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 3,
+    "title": "Website Loading Extremely Slow",
+    "description": "Homepage takes more than 15 seconds to load on mobile devices.",
+    "customer": "Karim Hasan",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 4,
+    "title": "Password Reset Email Not Received",
+    "description": "User requested password reset but did not receive any email.",
+    "customer": "Farzana Akter",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 5,
+    "title": "Profile Image Upload Failed",
+    "description": "User unable to upload profile image due to server error.",
+    "customer": "Sabbir Hossain",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 6,
+    "title": "Cart Items Disappearing",
+    "description": "Products added to cart are removed automatically after page refresh.",
+    "customer": "Mim Rahman",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 7,
+    "title": "Invoice Download Not Working",
+    "description": "Customer unable to download invoice PDF after purchase.",
+    "customer": "Shafiq Ahmed",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 8,
+    "title": "Search Function Returning No Results",
+    "description": "Search bar returns empty results even for existing products.",
+    "customer": "Tania Sultana",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 9,
+    "title": "App Crashing on Checkout",
+    "description": "Mobile application crashes when proceeding to checkout page.",
+    "customer": "Imran Chowdhury",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 10,
+    "title": "Wrong Order Delivered",
+    "description": "Customer received a different item instead of the ordered product.",
+    "customer": "Sadman Kabir",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 11,
+    "title": "Notification Not Showing",
+    "description": "Users are not receiving push notifications after updates.",
+    "customer": "Jannatul Ferdous",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 12,
+    "title": "Discount Code Not Applying",
+    "description": "Promo code entered during checkout is not applying any discount.",
+    "customer": "Rifat Islam",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 13,
+    "title": "Account Suspended Without Reason",
+    "description": "Customer account was suspended without prior notification.",
+    "customer": "Ayesha Rahman",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 14,
+    "title": "Language Switch Not Working",
+    "description": "Website language toggle does not change content properly.",
+    "customer": "Masud Rana",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 15,
+    "title": "Order Tracking Not Updating",
+    "description": "Tracking page not updating shipment status in real-time.",
+    "customer": "Sumaiya Tasnim",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  }
+]
