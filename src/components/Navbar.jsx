@@ -3,9 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-lg px-5 py-3 ">
-      {/* Left side */}
       <div className="navbar-start">
-        {/* Hamburger (Mobile only) */}
         <div className="dropdown lg:hidden">
           <div tabIndex={0} role="button" className="btn btn-ghost">
             <svg
@@ -24,7 +22,6 @@ const Navbar = () => {
             </svg>
           </div>
 
-          {/* Dropdown Menu (Mobile) */}
           <ul
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
@@ -50,11 +47,9 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* Logo */}
         <h1 className="text-xl font-bold">CS-Ticket System</h1>
       </div>
 
-      {/* Right side (Desktop menu) */}
       <div className="navbar-end lg:flex gap-6">
         {" "}
         <div className="navbar-center hidden lg:flex">
