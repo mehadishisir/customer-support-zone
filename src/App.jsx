@@ -7,6 +7,7 @@ import TaskStatus from "./components/TaskStatus";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/Footer";
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -40,7 +41,7 @@ function App() {
         <TicketList handleAddTask={handleAddTask} />
         <TaskStatus tasks={tasks} handleResolved={handleResolved} />
       </div>
-
+      <Footer></Footer>
       <ToastContainer position="top-right" autoClose={2000} />
     </>
   );
