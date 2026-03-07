@@ -1,8 +1,11 @@
 import React from "react";
 
-const TicketCard = ({ ticket }) => {
+const TicketCard = ({ ticket, handleAddTask }) => {
   return (
-    <div className="card bg-base-100 card-xs shadow-sm">
+    <div
+      onClick={() => handleAddTask(ticket)}
+      className="card bg-base-100 card-xs shadow-sm"
+    >
       <div className="card-body">
         <div className="flex justify-between">
           <h2 className="card-title font-semibold">{ticket.title}</h2>

@@ -1,7 +1,7 @@
 import React from "react";
 import bannerImg from "/asset/vector1.png";
 
-const Banner = () => {
+const Banner = ({ inProgress, resolved }) => {
   return (
     <div className="flex justify-center gap-10 py-16">
       {/* In Progress Card */}
@@ -12,7 +12,7 @@ const Banner = () => {
         }}
       >
         <h2 className="text-lg font-semibold">In Progress</h2>
-        <p className="text-4xl font-bold mt-2">12</p>
+        <p className="text-4xl font-bold mt-2">{inProgress}</p>
         <p className="text-sm opacity-90">Tickets currently being worked on</p>
       </div>
 
@@ -25,7 +25,7 @@ const Banner = () => {
         }}
       >
         <h2 className="text-lg font-semibold">Resolved</h2>
-        <p className="text-4xl font-bold mt-2">34</p>
+        <p className="text-4xl font-bold mt-2">{resolved}</p>
         <p className="text-sm opacity-90">Tickets successfully solved</p>
       </div>
     </div>
