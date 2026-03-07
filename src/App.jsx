@@ -5,6 +5,9 @@ import Navbar from "./components/Navbar";
 import TicketList from "./components/TicketList";
 import TaskStatus from "./components/TaskStatus";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   const [tasks, setTasks] = useState([]);
   const [resolved, setResolved] = useState([]);
@@ -14,12 +17,17 @@ function App() {
 
     if (!exists) {
       setTasks((prevTasks) => [...prevTasks, ticket]);
+      toast.success("Task added successfully!");
+    } else {
+      toast.error("Task already added!");
     }
   };
 
   const handleResolved = (task) => {
     setResolved((prevResolved) => [...prevResolved, task]);
     setTasks((prevTasks) => prevTasks.filter((t) => t.id !== task.id));
+
+    toast.success("Task completed!");
   };
 
   return (
@@ -32,6 +40,8 @@ function App() {
         <TicketList handleAddTask={handleAddTask} />
         <TaskStatus tasks={tasks} handleResolved={handleResolved} />
       </div>
+
+      <ToastContainer position="top-right" autoClose={2000} />
     </>
   );
 }
